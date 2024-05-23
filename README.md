@@ -32,7 +32,7 @@ python crawl_all.py -o <output_directory>
 
 `wavs/` 存放了所有角色的語音檔，以角色爲單位儲存，子資料夾的命名規則目前爲 `<角色名字>_<角色在 Wiki 上的編號>`，角色名字以程式在 Wiki 上爬到的全名爲準，角色的 Wiki 編號則是他們在撰寫 Wiki 期間給每個角色 (或是說分頁) 分配到的編號。例如禮服陽奈的編號是 611753，那他在 Wiki 對應的 URL 就是 https://www.gamekee.com/ba/611753.html
 
-> 註1: 使用目前的命名規則的原因是目前中文 Wiki 對角色的命名定義不太統一 (例: [原版小春](https://www.gamekee.com/ba/78300.html) 和 [泳裝小春](https://www.gamekee.com/ba/595927.html) 在 Wiki 上標記的名字都是一樣的; [正月茜香](https://www.gamekee.com/ba/150380.html) 姓氏的平假名讀音擺放位置和 [原版](https://www.gamekee.com/ba/46678.html)不一樣)，在
+> 註1: 使用目前的命名規則的原因是目前中文 Wiki 對角色的命名定義不太統一 (例: [原版小春](https://www.gamekee.com/ba/78300.html) 和 [泳裝小春](https://www.gamekee.com/ba/595927.html) 在 Wiki 上標記的名字都是一樣的; [正月茜香](https://www.gamekee.com/ba/150380.html) 姓氏的平假名讀音擺放位置和 [原版](https://www.gamekee.com/ba/46678.html)不一樣)，因此決定多加上她們的 Wiki 編號作爲暫用方案。
 
 ### Crawl Single Character
 如果只想抓取特定角色 / NPC / 未實裝 (但已有語音資料) 角色的話可以利用 `crawler.py` 進行單一角色的語音 (含文本) 資料抓取
